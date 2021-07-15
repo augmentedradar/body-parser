@@ -13,7 +13,7 @@ keywords = ["iron", "web", "http", "parsing", "parser"]
 [dependencies]
 iron = "0.6.1"
 plugin = "0.2"
-persistent = "0.4"
+persistent = { git = "https://github.com/augmentedradar/persistent.git" }
 serde = "1.0"
 serde_json = "1.0"
 
